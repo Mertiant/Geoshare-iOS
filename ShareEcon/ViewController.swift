@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var tabControll: UISegmentedControl!
     
 
-    @IBOutlet weak var textLabel: UILabel!
+ 
     
 
     @IBOutlet weak var BorrowView: UIView!
@@ -47,7 +47,7 @@ class ViewController: UIViewController {
     @IBAction func changedTab(sender: UISegmentedControl) {
 
         if (tabControll.selectedSegmentIndex == 0){
-        textLabel.text = "Borrow"
+  
             ShareView.hidden = true
             BorrowView.hidden = false
             data.append("Dicks")
@@ -57,7 +57,7 @@ class ViewController: UIViewController {
             ShareView.hidden = false
             BorrowView.hidden = true
         
-            textLabel.text = "Share"
+    
             //ßtableView.hidden = false
         }
     }
