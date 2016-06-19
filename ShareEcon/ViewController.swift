@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import ArcGIS
 
 class ViewController: UIViewController, UITableViewDataSource {
 
